@@ -1,0 +1,27 @@
+{
+  "name": "lib-online-statistics",
+  "version": "1.0.0",
+  "description": "Online mean, variance, standard deviation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover -- node_modules/.bin/_mocha"
+  },
+  "author": "Giuseppe Burtini",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-config-strawhouse": "^1.0.4",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "istanbul": "^0.4.5"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-stats": "^0.3.0",
+    "lodash": "^4.17.2",
+    "mocha": "^3.2.0",
+    "randgen": "^0.1.0"
+  }
+}
