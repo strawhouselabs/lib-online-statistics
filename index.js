@@ -47,7 +47,8 @@ class Online {
       throw Error('Non-numeric record.');
     }
   }
-
+  
+  count() { return this.instanceData.count; }
   mean() { return this.instanceData.mean; }
   variance(sample = false) {
     if (this.instanceData.count < 2) return NaN;
