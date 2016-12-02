@@ -1,3 +1,5 @@
+u gotta init 2 use this
+
 A simple class for tracking mean, variance and standard deviation in an online fashion.
 
 `observe(record)`  
