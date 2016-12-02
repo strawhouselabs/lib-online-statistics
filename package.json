@@ -6,6 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover -- node_modules/.bin/_mocha"
   },
+  "repository": "https://github.com/strawhouselabs/lib-online-statistics",
   "author": "Giuseppe Burtini",
   "license": "MIT",
   "devDependencies": {
