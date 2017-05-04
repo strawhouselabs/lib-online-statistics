@@ -1,6 +1,9 @@
+lib-online-statistics
+---------------------
+
 A simple class for tracking mean, variance and standard deviation in an online fashion.
 
-Example use
+*Example use*
 ```js
 const OnlineStatistics = require('lib-online-statistics');
 const o = new OnlineStatistics();
