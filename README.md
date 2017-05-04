@@ -19,6 +19,4 @@ Available methods on the object are
 
 `standardDeviation(sample = false)` - get the corrected standard deviation (sample or population).
 
-
-Can be serialized with JSON.stringify and provides a fromJSON method.
-
+The stateful tracker can be serialized for storage in a file or database with `JSON.stringify` and provides a static `fromJSON` method.
